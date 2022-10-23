@@ -1,37 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2022-10-23T09:51:49.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YCYx6W62CfV3DS4XX9NN" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-23T11:25:26.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="mwBKBX8bE00dqj6FxQio" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="703" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="850" dy="446" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="ickbYxLy7ywmuhqm6skH-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220.0344827586207" y="170.02758620689656" as="targetPoint" />
+        <mxCell id="ickbYxLy7ywmuhqm6skH-14" value="First Step ( connecting to Smart Door Lock )" style="swimlane;fontSize=11;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="20" width="280" height="480" as="geometry">
+            <mxRectangle x="20" y="20" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="START" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=1;arcSize=50;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="20" width="120" height="50" as="geometry" />
+        <mxCell id="ickbYxLy7ywmuhqm6skH-16" value="" style="group;verticalAlign=middle;" vertex="1" connectable="0" parent="ickbYxLy7ywmuhqm6skH-14">
+          <mxGeometry x="55" y="50" width="170" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="ickbYxLy7ywmuhqm6skH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ickbYxLy7ywmuhqm6skH-3" target="ickbYxLy7ywmuhqm6skH-4">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="START" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=1;arcSize=50;" parent="ickbYxLy7ywmuhqm6skH-16" vertex="1">
+          <mxGeometry x="25" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-3" value="Start Access Point&lt;br style=&quot;font-size: 11px;&quot;&gt;Start Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0" vertex="1" parent="ickbYxLy7ywmuhqm6skH-16">
+          <mxGeometry x="25" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ickbYxLy7ywmuhqm6skH-16" source="WIyWlLk6GJQsqaUBKTNV-3" target="ickbYxLy7ywmuhqm6skH-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205.0344827586207" y="150.02758620689656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-15" value="" style="group" vertex="1" connectable="0" parent="ickbYxLy7ywmuhqm6skH-16">
+          <mxGeometry y="160" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-4" value="Connect the device to Door Lock&lt;br&gt;&lt;br&gt;Open server address&lt;br&gt;&lt;br&gt;Send SSID &amp;amp; PASSWORD" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0" vertex="1" parent="ickbYxLy7ywmuhqm6skH-15">
+          <mxGeometry width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-10" value="Open the APP&lt;br&gt;Open / Close the door" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0" vertex="1" parent="ickbYxLy7ywmuhqm6skH-15">
+          <mxGeometry x="25" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="ickbYxLy7ywmuhqm6skH-15" source="ickbYxLy7ywmuhqm6skH-4" target="ickbYxLy7ywmuhqm6skH-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ickbYxLy7ywmuhqm6skH-3" value="Start Access Point&lt;br style=&quot;font-size: 11px;&quot;&gt;Start Server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="100" width="120" height="50" as="geometry" />
+        <mxCell id="ickbYxLy7ywmuhqm6skH-12" value="END&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=1;arcSize=50;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-15">
+          <mxGeometry x="25" y="200" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ickbYxLy7ywmuhqm6skH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ickbYxLy7ywmuhqm6skH-4" target="ickbYxLy7ywmuhqm6skH-10">
+        <mxCell id="ickbYxLy7ywmuhqm6skH-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="ickbYxLy7ywmuhqm6skH-15" source="ickbYxLy7ywmuhqm6skH-10" target="ickbYxLy7ywmuhqm6skH-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ickbYxLy7ywmuhqm6skH-4" value="Connect the device to Door Lock&lt;br&gt;&lt;br&gt;Open server address&lt;br&gt;&lt;br&gt;Send SSID &amp;amp; PASSWORD" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="15" y="180" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ickbYxLy7ywmuhqm6skH-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ickbYxLy7ywmuhqm6skH-10" target="ickbYxLy7ywmuhqm6skH-12">
+        <mxCell id="ickbYxLy7ywmuhqm6skH-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="ickbYxLy7ywmuhqm6skH-16" source="ickbYxLy7ywmuhqm6skH-3" target="ickbYxLy7ywmuhqm6skH-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ickbYxLy7ywmuhqm6skH-10" value="Open the APP&lt;br&gt;Open / Close the door" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="300" width="120" height="50" as="geometry" />
+        <mxCell id="ickbYxLy7ywmuhqm6skH-17" value="Blynk App ( Android &amp; IOS )" style="swimlane;fontSize=11;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="532" width="280" height="480" as="geometry">
+            <mxRectangle x="20" y="20" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ickbYxLy7ywmuhqm6skH-12" value="END&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=1;arcSize=50;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="380" width="120" height="50" as="geometry" />
+        <mxCell id="ickbYxLy7ywmuhqm6skH-29" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Open / Close&lt;/u&gt; - &lt;span style=&quot;font-weight: normal;&quot;&gt;open and close the Smart door&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;lock.&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-17">
+          <mxGeometry x="20" y="70" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-30" value="APP FEATURES&lt;br&gt;&lt;hr&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" vertex="1" parent="ickbYxLy7ywmuhqm6skH-17">
+          <mxGeometry x="20" y="40" width="136" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-36" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Party Mode&amp;nbsp;&lt;/u&gt;- &lt;span style=&quot;font-weight: 400;&quot;&gt;Door lock always open, unless stop button click.&amp;nbsp;&lt;/span&gt;Use for party event, Birthday, etc.&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-17">
+          <mxGeometry x="20" y="120" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-37" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Generate Visitors Pins&amp;nbsp;&lt;/u&gt;- Generate v&lt;span style=&quot;font-weight: 400;&quot;&gt;isitors pin or VPin are given to visitors as one time pin code.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-17">
+          <mxGeometry x="20" y="180" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-38" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;View the Visitors Pins&amp;nbsp;&lt;/u&gt;- &lt;span style=&quot;font-weight: 400;&quot;&gt;View visitors pin or VPin are given to visitors as one time pin code.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-17">
+          <mxGeometry x="20" y="250" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-39" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Reset WiFi Credentials&lt;/u&gt;- &lt;span style=&quot;font-weight: 400;&quot;&gt;Remove save wifi credentials and start AP mode to reconfigure.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-17">
+          <mxGeometry x="20" y="320" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-40" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;ETC&lt;/u&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;text-decoration-line: underline; white-space: pre;&quot;&gt;	&lt;/span&gt;View logs&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Notification current door lock status&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Email Status the VPins&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=left;horizontal=1;direction=west;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-17">
+          <mxGeometry x="20" y="370" width="240" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-42" value="Smart Door Lock App ( Android )" style="swimlane;fontSize=11;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="348" y="532" width="280" height="569" as="geometry">
+            <mxRectangle x="20" y="20" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-43" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Open / Close&lt;/u&gt; - &lt;span style=&quot;font-weight: normal;&quot;&gt;open and close the Smart door&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;lock.&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-42">
+          <mxGeometry x="20" y="70" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-44" value="APP FEATURES&lt;br&gt;&lt;hr&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" vertex="1" parent="ickbYxLy7ywmuhqm6skH-42">
+          <mxGeometry x="20" y="40" width="136" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-45" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Party Mode&amp;nbsp;&lt;/u&gt;- &lt;span style=&quot;font-weight: 400;&quot;&gt;Door lock always open, unless stop button click. Use for party event, Birthday, etc.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-42">
+          <mxGeometry x="20" y="120" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-46" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Generate Visitors Pins&amp;nbsp;&lt;/u&gt;- Generate v&lt;span style=&quot;font-weight: 400;&quot;&gt;isitors pin or VPin are given to visitors as one time pin code.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-42">
+          <mxGeometry x="20" y="180" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-47" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;View the Visitors Pins&amp;nbsp;&lt;/u&gt;- &lt;span style=&quot;font-weight: 400;&quot;&gt;View visitors pin or VPin are given to visitors as one time pin code.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-42">
+          <mxGeometry x="20" y="250" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-48" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Update WiFi Credentials&lt;/u&gt;&amp;nbsp;- &lt;span style=&quot;font-weight: 400;&quot;&gt;Remove save wifi credentials in&amp;nbsp; app&lt;/span&gt;.&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-42">
+          <mxGeometry x="20" y="320" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-49" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;ETC&lt;/u&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;text-decoration-line: underline; white-space: pre;&quot;&gt;	&lt;/span&gt;View logs&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Notification current door lock status&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=left;horizontal=1;direction=west;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-42">
+          <mxGeometry x="20" y="474" width="240" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="ickbYxLy7ywmuhqm6skH-50" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Status&lt;/u&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt; - See status of the:&lt;/span&gt;&lt;/h1&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;Battery&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;Connection mode&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;See RFID tags and assign a name.&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;verticalAlign=middle;textDirection=ltr;" vertex="1" parent="ickbYxLy7ywmuhqm6skH-42">
+          <mxGeometry x="20" y="376" width="240" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
